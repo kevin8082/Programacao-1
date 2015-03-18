@@ -59,5 +59,6 @@ void main(void){
 	
 	if (Horas_Trabalhadas = 0){
 	        cout << "Vai Trabalha vagabundo!" << endl;
+	}        
 	system("pause");
 }
