@@ -46,11 +46,11 @@ void main(void){
     if (Horas_Trabalhadas > 40){
 	    cout << "Seu Salario e:" << Salario << endl;
 	    cout << "Horas Extras:" << Hora_Extra << endl;
-	    cout << "Feito Por Kevin R. P." << endl;
+	    cout << "Feito Por Kevin8082" << endl;
 	}
 	else{
 		cout << "Seu Salario e:" << Salario << endl;
-		cout << "Feito Por Kevin R. P." << endl;
+		cout << "Feito Por Kevin8082" << endl;
 	}
 	system("pause");
 }
