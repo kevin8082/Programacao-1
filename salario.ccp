@@ -56,5 +56,8 @@ void main(void){
 	else{
 		cout << "Seu Salario e:" << Salario << endl;
 	}
+	
+	if (Horas_Trabalhadas = 0){
+	        cout << "Vai Trabalha vagabundo!" << endl;
 	system("pause");
 }
