@@ -9,6 +9,11 @@ void main(void){
 
 	double Salario;
 
+	// Ler Total_Horas
+	double Total_Horas;
+	cout << "Digite o Total de Horas a Trabalhar:";
+	cin >> Total_Horas;
+
 	// Ler Horas_Trabalhadas
 	double Horas_Trabalhadas;
 	cout << "Digite as Horas Trabalhadas:";
@@ -18,11 +23,14 @@ void main(void){
 	double Salario_Hora;
 	cout << "Digite o Salario Hora:";
 	cin >> Salario_Hora;
-	
-	// Ler Total_Horas
-	double Total_Horas
-	cout << "Digite o Total de Horas a Trabalhar:";
-	cin >> Total_Horas
+
+	// Hora_Extra
+	double Hora_Extra;
+	Hora_Extra = Horas_Trabalhadas - Total_Horas;
+
+	// Salario Extra
+	double Salario_Extra;
+	Salario_Extra = Total_Horas * Salario_Hora;
 
 	// Salário_ Semanal
 	double Salario_Semanal;
@@ -30,15 +38,7 @@ void main(void){
 
 	// Salario_Hora_Extra
 	double Salario_Hora_Extra;
-	Salario_Extra = Hora_Extra * 1.5 * Salario_Hora;
-	
-	// Hora_Extra
-	double Hora_Extra
-	Hora_Extra = Horas_Trabalhadas - Total_Horas;
-	
-	// Salario Extra
-	double Salario_Extra
-	Salario_Extra = Total_Horas * Salario_Hora;
+	Salario_Hora_Extra = Hora_Extra * 1.5 * Salario_Hora;
 
 	// Calculo
 	if (Horas_Trabalhadas > Total_Horas){
@@ -49,16 +49,16 @@ void main(void){
 	}
 
 	// Imprimir
-        if (Horas_Trabalhadas > Total_Horas){
-	        cout << "Seu Salario e:" << Salario << endl;
-	        cout << "Horas Extras:" << Hora_Extra << endl;
+	if (Horas_Trabalhadas > Total_Horas){
+		cout << "Seu Salario e:" << Salario << endl;
+		cout << "Horas Extras:" << Hora_Extra << endl;
 	}
 	else{
 		cout << "Seu Salario e:" << Salario << endl;
 	}
-	
+
 	if (Horas_Trabalhadas = 0){
-	        cout << "Vai Trabalha vagabundo!" << endl;
-	}        
+		cout << "Vai Trabalha vagabundo!" << endl;
+	}
 	system("pause");
 }
