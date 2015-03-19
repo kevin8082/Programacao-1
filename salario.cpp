@@ -26,7 +26,7 @@ void main(void){
 
 	// Ler Multiplicador_Hora_Extra
 	double Multiplicador_Hora_Extra;
-	cout << "Modificador da Hora Extra(use ponto nao virgula):";
+	cout << "Multiplicador da Hora Extra(use ponto nao virgula):";
 	cin >> Multiplicador_Hora_Extra;
 
 	// Hora_Extra
