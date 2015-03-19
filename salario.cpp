@@ -1,12 +1,13 @@
-//Exercício para calcular o salário de uma pessoa baseado nas horas que trabalhou e o valor por hora e também definir
-//o valor a mais de hora extra com um multiplicador de valor para horas extras com uma leve modificação de
-//poder colocar quantas horas a trabalhar no total 
+// Exercício para calcular o salário de uma pessoa baseado nas horas que trabalhou e o valor por hora e também definir
+// o valor a mais de hora extra com um multiplicador de valor para horas extras com uma leve modificação de
+// poder colocar quantas horas a trabalhar no total 
+// Feito Por Kevin8082
 
 #include <iostream>
 using namespace std;
 
 void main(void){
-	
+
 	// Ler Total_Horas
 	double Total_Horas;
 	cout << "Digite o Total de Horas a Trabalhar:";
