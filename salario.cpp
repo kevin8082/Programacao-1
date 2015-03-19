@@ -6,9 +6,7 @@
 using namespace std;
 
 void main(void){
-
 	
-
 	// Ler Total_Horas
 	double Total_Horas;
 	cout << "Digite o Total de Horas a Trabalhar:";
