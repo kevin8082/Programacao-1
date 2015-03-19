@@ -7,7 +7,7 @@ using namespace std;
 
 void main(void){
 
-	double Salario;
+	
 
 	// Ler Total_Horas
 	double Total_Horas;
@@ -46,6 +46,7 @@ void main(void){
 	Salario_Hora_Extra = Hora_Extra * Multiplicador_Hora_Extra * Salario_Hora;
 
 	// Calculo
+	double Salario;
 	if (Horas_Trabalhadas > Total_Horas){
 		Salario = Salario_Extra + Salario_Hora_Extra;
 	}
