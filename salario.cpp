@@ -56,7 +56,7 @@ void main(void){
 	// Imprimir
 	if (Horas_Trabalhadas > Total_Horas){
 		cout << "Seu Salario e: " << Salario << endl;
-		cout << "Horas Extras: " << Hora_Extra << endl;
+		cout << "Horas Extras Trabalhadass: " << Hora_Extra << endl;
 	}
 	else{
 		cout << "Seu Salario e: " << Salario << endl;
