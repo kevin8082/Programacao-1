@@ -1,6 +1,6 @@
 //Exercício para calcular o salário de uma pessoa baseado nas horas que trabalhou e o valor por hora e também definir
-//o valor a mais de hora extra com o modificador de 1.5 especificado no exercício com uma leve modificação de
-//poder colocar quantas horas a trabalhar no total
+//o valor a mais de hora extra com um multiplicador de valor para horas extras com uma leve modificação de
+//poder colocar quantas horas a trabalhar no total 
 
 #include <iostream>
 using namespace std;
@@ -24,6 +24,11 @@ void main(void){
 	cout << "Digite o Salario Hora:";
 	cin >> Salario_Hora;
 
+	// Ler Multiplicador_Hora_Extra
+	double Multiplicador_Hora_Extra;
+	cout << "Modificador da Hora Extra(use ponto nao virgula):";
+	cin >> Multiplicador_Hora_Extra;
+
 	// Hora_Extra
 	double Hora_Extra;
 	Hora_Extra = Horas_Trabalhadas - Total_Horas;
@@ -38,7 +43,7 @@ void main(void){
 
 	// Salario_Hora_Extra
 	double Salario_Hora_Extra;
-	Salario_Hora_Extra = Hora_Extra * 1.5 * Salario_Hora;
+	Salario_Hora_Extra = Hora_Extra * Multiplicador_Hora_Extra * Salario_Hora;
 
 	// Calculo
 	if (Horas_Trabalhadas > Total_Horas){
@@ -50,11 +55,11 @@ void main(void){
 
 	// Imprimir
 	if (Horas_Trabalhadas > Total_Horas){
-		cout << "Seu Salario e:" << Salario << endl;
-		cout << "Horas Extras:" << Hora_Extra << endl;
+		cout << "Seu Salario e: " << Salario << endl;
+		cout << "Horas Extras: " << Hora_Extra << endl;
 	}
 	else{
-		cout << "Seu Salario e:" << Salario << endl;
+		cout << "Seu Salario e: " << Salario << endl;
 	}
 
 	system("pause");
