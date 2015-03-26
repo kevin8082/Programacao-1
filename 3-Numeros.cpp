@@ -1,5 +1,5 @@
 // Software feito como exercício da faculdade para você poder digitar 3 números e fazer a soma,
-//  media aritmética e ver qual é o maior entre eles.
+// media aritmética e ver qual é o maior entre eles.
 // Feito por Kevin8082
 
 #include <iostream>;
