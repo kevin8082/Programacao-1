@@ -35,7 +35,7 @@ void main(void){
 	}
 	else{
 		if (Delta < 0){
-			cout << "A resposta é raiz imaginária e não será resolvido" << endl;
+			cout << "A resposta é uma raiz imaginária e não será resolvida" << endl;
 		}
 	}
 
