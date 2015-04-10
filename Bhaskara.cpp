@@ -23,7 +23,7 @@ void main(void){
 	cout << "Digite C:";
 	cin >> c;
 
-	Delta = pow(b, 2) - 4 * a * c;
+	Delta = pow(b, 2) - (4 * a * c);
 
 	Bhaskara1 = ((-b) + sqrt(Delta)) / (2 * a);
 
