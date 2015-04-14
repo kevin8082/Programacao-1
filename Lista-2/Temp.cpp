@@ -8,7 +8,7 @@ void main(void){
 
 	double Temp = 0.0;
 
-	cout << "Digite a temperatura em Kelvins:";
+	cout << "Digite a temperatura em Kelvin:";
 	cin >> Temp;
 
 	if (Temp > 273 && Temp < 473){
