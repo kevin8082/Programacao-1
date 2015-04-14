@@ -29,7 +29,7 @@ void main(void){
 
 	x2 = ((-b) - sqrt(Delta)) / (2 * a);
 
-	if (Delta > 0){
+	if (Delta >= 0){
 		cout << "X1 é:" << x1 << endl;
 		cout << "X2 é:" << x2 << endl;
 	}
