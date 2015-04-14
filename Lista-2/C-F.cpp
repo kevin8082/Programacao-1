@@ -9,7 +9,7 @@ void main(void){
 	double F = 0.0;
 	double C = 0.0;
 
-	cout << "Digite a temperatura em farenheit:";
+	cout << "Digite a temperatura em Fahrenheit:";
 	cin >> F;
 
 	C = ((F - 32) / 9) * 5;
