@@ -19,8 +19,9 @@ void main(void){
 			cout << "A água está sólida." << endl;
 		}
 		else{
-			if (Temp >= 473)
+			if (Temp >= 473){
 				cout << "A água está Gasosa." << endl;
+			}	
 		}
 	}
 
