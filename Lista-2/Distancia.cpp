@@ -13,17 +13,11 @@ void main(void){
 	double y2 = 0.0;
 	double Distancia = 0.0;
 
-	cout << "Digite x1:";
-	cin >> x1;
+	cout << "Digite x1 e y1 separados por um espaço:";
+	cin >> x1 >> y1;
 
-	cout << "Digite y1:";
-	cin >> y1;
-
-	cout << "Digite x2:";
-	cin >> x2;
-
-	cout << "Digite y2:";
-	cin >> y2;
+	cout << "Digite x2 e y2 separados por um espaço:";
+	cin >> x2 >> y2;
 
 	Distancia = sqrt(pow((x2 - x1), 2) + pow((y2 - y1), 2));
 
