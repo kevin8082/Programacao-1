@@ -14,14 +14,8 @@ void main(void){
 	double x1 = 0.0;
 	double x2 = 0.0;
 
-	cout << "Digite A:";
-	cin >> a;
-
-	cout << "Digite B:";
-	cin >> b;
-
-	cout << "Digite C:";
-	cin >> c;
+	cout << "Digite A, B e C separados por um espaço:";
+	cin >> a >> b >> c;
 
 	Delta = pow(b, 2) - (4 * a * c);
 
