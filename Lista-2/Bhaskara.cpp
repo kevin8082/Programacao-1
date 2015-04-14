@@ -22,15 +22,15 @@ void main(void){
 	x1 = ((-b) + sqrt(Delta)) / (2 * a);
 
 	x2 = ((-b) - sqrt(Delta)) / (2 * a);
-
+	
+	if (Delta < 0){
+		cout << "A resposta é uma raiz imaginária e não será resolvida" << endl;
+	}
+	else{
 	if (Delta >= 0){
 		cout << "X1 é:" << x1 << endl;
 		cout << "X2 é:" << x2 << endl;
 	}
-	else{
-		if (Delta < 0){
-			cout << "A resposta é uma raiz imaginária e não será resolvida" << endl;
-		}
 	}
 
 	system("pause");
