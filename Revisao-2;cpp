@@ -2,6 +2,7 @@
 // Se a letra for D então imprime o dobro do número
 // Se a letra for Q imprimir o quadrado
 // Se a letra for C imprimir o Cubo
+// Se não for nenhuma das 3 imprimir "Nada a fazer"
 
 #include <iostream>;
 #include <locale>;
