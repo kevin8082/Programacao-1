@@ -18,7 +18,7 @@ void main(void){
 		cout << "Digite um número inteiro(digite 0 para sair):";
 		cin >> numero;
 
-		while (numero % 2 == 1 && numero % 3 == 0 && numero > 0){
+		while (numero % 2 == 1 && numero % 3 == 0){
 
 			if (numero % 2 != 0){
 				contador1++;
