@@ -9,11 +9,10 @@ void main(void){
 
 	for (int i = 0; i <= 98; i++){
 		Fibonacci = num1 + num2;
-		cout.precision(40);
-		cout << Fibonacci << endl;
 		num1 = num2;
 		num2 = Fibonacci;
-
+		cout.precision(40);
+		cout << Fibonacci << endl;
 	}
 
 	system("pause");
