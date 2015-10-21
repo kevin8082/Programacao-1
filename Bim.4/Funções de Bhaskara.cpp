@@ -38,7 +38,7 @@ double delta(double a, double b, double c) {
 double MaiorRaiz(double a, double b, double c) {
 
 	double raiz[2] = { 0 };
-	double raiz1 = 0;
+	double MaiorRaiz = 0;
 
 	if (positivo(delta(a, b, c)) == true && nulo(a) == false){
 
@@ -47,15 +47,15 @@ double MaiorRaiz(double a, double b, double c) {
 		raiz[1] = (-b - sqrt(delta(a, b, c))) / (2 * a);
 
 		if (raiz[0] > raiz[1]) {
-			raiz1 = raiz[0];
+			MaiorRaiz = raiz[0];
 		}
 		else {
-			raiz1 = raiz[1];
+			MaiorRaiz = raiz[1];
 		}
 
 	}
 
-	return raiz1;
+	return MaiorRaiz;
 
 }
 
