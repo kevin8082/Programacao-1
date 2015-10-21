@@ -46,11 +46,11 @@ double MaiorRaiz(double a, double b, double c) {
 
 		raiz[1] = (-b - sqrt(delta(a, b, c))) / (2 * a);
 
-		if (raiz[0] < raiz[1]) {
-			raiz1 = raiz[1];
+		if (raiz[0] > raiz[1]) {
+			raiz1 = raiz[0];
 		}
 		else {
-			raiz1 = raiz[0];
+			raiz1 = raiz[1];
 		}
 
 	}
