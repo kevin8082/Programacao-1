@@ -73,7 +73,7 @@ int main() {
 	}
 	else{
 		if (nulo(valores[0]) == true){
-			cout << "Não foi possível calcular, o a é nulo." << endl;
+			cout << "Não foi possível calcular, o 'a' é nulo." << endl;
 		}
 		else {
 			cout << "A maior raiz é:" << MaiorRaiz(valores[0], valores[1], valores[2]) << endl;
