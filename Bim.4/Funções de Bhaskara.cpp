@@ -40,7 +40,7 @@ double MaiorRaiz(double a, double b, double c) {
 	double raiz[2] = { 0 };
 	double MaiorRaiz = 0;
 
-	if (positivo(delta(a, b, c)) == true && nulo(a) == false){
+	if (positivo(delta(a, b, c)) && !nulo(a)){
 
 		raiz[0] = (-b + sqrt(delta(a, b, c))) / (2 * a);
 
@@ -68,11 +68,11 @@ int main() {
 	cout << "Digite os valores de a, b e c:";
 	cin >> valores[0] >> valores[1] >> valores[2];
 
-	if (positivo(delta(valores[0], valores[1], valores[2])) == false){
+	if (!positivo(delta(valores[0], valores[1], valores[2]))){
 		cout << "Não foi possível calcular, é uma raiz imaginária." << endl;
 	}
 	else{
-		if (nulo(valores[0]) == true){
+		if (nulo(valores[0])){
 			cout << "Não foi possível calcular, o 'a' é nulo." << endl;
 		}
 		else {
